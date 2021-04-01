@@ -8,6 +8,7 @@ http://www.tooplate.com/view/2109-the-card
   padding: 0;
 }
 
+
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 19px;
@@ -17,6 +18,7 @@ body {
 }
 
 a {
+  color:black;
   transition: all 0.2s;
 }
 
@@ -30,8 +32,13 @@ footer a:link, footer a:visited {
 }
 
 .tm-site-header-box {
-  border-top-right-radius:60px; 
-  border-bottom-left-radius:60px; 
+  border-radius:10px; 
+  ; 
+}
+
+span{
+   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color:white; 
 }
 
 }
@@ -53,18 +60,21 @@ footer a:link, footer a:visited {
 
 .tm-navbar-menu {
   display: block;
-  color: black;
-  background: white;
+  border-radius:5px;
+  border: 1px solid #696969;
+  background-color:rgba(200, 200, 200, 0.5); 
+  /*background-image: radial-gradient(circle at 10.94% 10.44%, #ffff87 0, #f5ff8a 10%, #dcff8d 20%, #c1ff90 30%, #a7f392 40%, #8ce593 50%, #73d693 60%, #5dc994 70%, #48be95 80%, #33b597 90%, #1cae9a 100%);*/
   padding: 10px 20px;
   margin-bottom: 18px;
   width: 95px;
   margin-right: 0;
   margin-left: auto;
   text-align: center;
+
 }
 
 .tm-navbar-menu:hover {
-  color: #950000;
+  color:red;
   text-decoration: none;
 }
 
@@ -80,8 +90,10 @@ footer a:link, footer a:visited {
 
 .tm-nav-link:link,
 .tm-nav-link:visited {
+  border-radius:10px; 
   color: black;
-  background-color:green;
+  background-color:white; 
+  /*background-image: radial-gradient(circle at 50.94% 50.44%, #ffff87 0, #f5ff8a 10%, #dcff8d 20%, #c1ff90 30%, #a7f392 40%, #8ce593 50%, #73d693 60%, #5dc994 70%, #48be95 80%, #33b597 90%, #1cae9a 100%);*/
   padding: 10px 40px;
   display: block;
   margin-bottom: 6px;
@@ -133,9 +145,11 @@ footer a:link, footer a:visited {
   font-size: 3.4rem;
   margin-left: 40px;
   text-transform: uppercase;
+  text-shadow: 2px 2px black;
 }
 
 .tm-textbox {
+ border-radius:10px;
   padding: 45px;
   font-size: 1.1rem;
   color: #c5c7c6;
@@ -144,6 +158,8 @@ footer a:link, footer a:visited {
 
 .tm-textbox-2 {
   padding: 60px 40px 60px;
+  width:500px;
+
 }
 
 .tm-section-0 {
@@ -183,6 +199,7 @@ footer a:link, footer a:visited {
 }
 
 .tm-barcode-box {
+  width:50px;
   margin-bottom: 30px;
   margin-left: 95px;
 }
@@ -323,7 +340,7 @@ footer {
 /*-----------------*/
 
 figure.effect-goliath {
-  background: #df4e4e;
+  background:black;
 }
 
 figure.effect-goliath img,
